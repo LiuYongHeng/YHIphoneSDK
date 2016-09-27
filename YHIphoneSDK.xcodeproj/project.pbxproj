@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1407521E1D94D2D10007A2F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1407521D1D94D2D10007A2F0 /* main.m */; };
+		140752211D94D2D10007A2F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 140752201D94D2D10007A2F0 /* AppDelegate.m */; };
+		140752241D94D2D10007A2F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 140752231D94D2D10007A2F0 /* ViewController.m */; };
+		140752271D94D2D10007A2F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 140752251D94D2D10007A2F0 /* Main.storyboard */; };
+		140752291D94D2D10007A2F0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 140752281D94D2D10007A2F0 /* Assets.xcassets */; };
+		1407522C1D94D2D10007A2F0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1407522A1D94D2D10007A2F0 /* LaunchScreen.storyboard */; };
+		140752371D94D2D10007A2F0 /* YHIphoneSDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 140752361D94D2D10007A2F0 /* YHIphoneSDKTests.m */; };
+		140752421D94D2D10007A2F0 /* YHIphoneSDKUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 140752411D94D2D10007A2F0 /* YHIphoneSDKUITests.m */; };
+		1407526E1D94D44C0007A2F0 /* NCTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 140752651D94D44C0007A2F0 /* NCTextView.m */; };
+		1407526F1D94D44C0007A2F0 /* UIImageView+GuiYun.m in Sources */ = {isa = PBXBuildFile; fileRef = 140752671D94D44C0007A2F0 /* UIImageView+GuiYun.m */; };
+		140752701D94D44C0007A2F0 /* UILabel+GuiYun.m in Sources */ = {isa = PBXBuildFile; fileRef = 140752691D94D44C0007A2F0 /* UILabel+GuiYun.m */; };
+		140752711D94D44C0007A2F0 /* UITextField+GuiYun.m in Sources */ = {isa = PBXBuildFile; fileRef = 1407526B1D94D44C0007A2F0 /* UITextField+GuiYun.m */; };
+		140752721D94D44C0007A2F0 /* UIView+GuiYunFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 1407526D1D94D44C0007A2F0 /* UIView+GuiYunFrame.m */; };
+		140752861D94D4830007A2F0 /* GYunColorUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 140752751D94D4830007A2F0 /* GYunColorUtils.m */; };
+		140752871D94D4830007A2F0 /* GYunContextUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 140752771D94D4830007A2F0 /* GYunContextUtils.m */; };
+		140752881D94D4830007A2F0 /* GYunFileUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 140752791D94D4830007A2F0 /* GYunFileUtils.m */; };
+		140752891D94D4830007A2F0 /* GYunImageUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1407527B1D94D4830007A2F0 /* GYunImageUtils.m */; };
+		1407528A1D94D4830007A2F0 /* GYunMacro.m in Sources */ = {isa = PBXBuildFile; fileRef = 1407527D1D94D4830007A2F0 /* GYunMacro.m */; };
+		1407528B1D94D4830007A2F0 /* GYunStringUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 1407527F1D94D4830007A2F0 /* GYunStringUtils.m */; };
+		1407528C1D94D4830007A2F0 /* GYunToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 140752811D94D4830007A2F0 /* GYunToast.m */; };
+		1407528D1D94D4830007A2F0 /* GYunUserDefault.m in Sources */ = {isa = PBXBuildFile; fileRef = 140752831D94D4830007A2F0 /* GYunUserDefault.m */; };
+		1407528E1D94D4830007A2F0 /* GYunValidators.m in Sources */ = {isa = PBXBuildFile; fileRef = 140752851D94D4830007A2F0 /* GYunValidators.m */; };
+		1407529D1D94D4E10007A2F0 /* NSArray+NSJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 140752921D94D4E10007A2F0 /* NSArray+NSJSONModel.m */; };
+		1407529E1D94D4E10007A2F0 /* NSDictionary+NSJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 140752941D94D4E10007A2F0 /* NSDictionary+NSJSONModel.m */; };
+		1407529F1D94D4E10007A2F0 /* NSJSONModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 140752961D94D4E10007A2F0 /* NSJSONModel.m */; };
+		140752A01D94D4E10007A2F0 /* NSJSONModelError.m in Sources */ = {isa = PBXBuildFile; fileRef = 140752981D94D4E10007A2F0 /* NSJSONModelError.m */; };
+		140752A11D94D4E10007A2F0 /* NSJSONModelKeyMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1407529A1D94D4E10007A2F0 /* NSJSONModelKeyMapper.m */; };
+		140752A21D94D4E10007A2F0 /* NSJSONModelProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 1407529C1D94D4E10007A2F0 /* NSJSONModelProperty.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		140752331D94D2D10007A2F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 140752111D94D2D10007A2F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 140752181D94D2D10007A2F0;
+			remoteInfo = YHIphoneSDK;
+		};
+		1407523E1D94D2D10007A2F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 140752111D94D2D10007A2F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 140752181D94D2D10007A2F0;
+			remoteInfo = YHIphoneSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		140752191D94D2D10007A2F0 /* YHIphoneSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHIphoneSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1407521D1D94D2D10007A2F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1407521F1D94D2D10007A2F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		140752201D94D2D10007A2F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		140752221D94D2D10007A2F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		140752231D94D2D10007A2F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		140752261D94D2D10007A2F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		140752281D94D2D10007A2F0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1407522B1D94D2D10007A2F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1407522D1D94D2D10007A2F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		140752321D94D2D10007A2F0 /* YHIphoneSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YHIphoneSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		140752361D94D2D10007A2F0 /* YHIphoneSDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHIphoneSDKTests.m; sourceTree = "<group>"; };
+		140752381D94D2D10007A2F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1407523D1D94D2D10007A2F0 /* YHIphoneSDKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YHIphoneSDKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		140752411D94D2D10007A2F0 /* YHIphoneSDKUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHIphoneSDKUITests.m; sourceTree = "<group>"; };
+		140752431D94D2D10007A2F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		140752641D94D44C0007A2F0 /* NCTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCTextView.h; sourceTree = "<group>"; };
+		140752651D94D44C0007A2F0 /* NCTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCTextView.m; sourceTree = "<group>"; };
+		140752661D94D44C0007A2F0 /* UIImageView+GuiYun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+GuiYun.h"; sourceTree = "<group>"; };
+		140752671D94D44C0007A2F0 /* UIImageView+GuiYun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+GuiYun.m"; sourceTree = "<group>"; };
+		140752681D94D44C0007A2F0 /* UILabel+GuiYun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+GuiYun.h"; sourceTree = "<group>"; };
+		140752691D94D44C0007A2F0 /* UILabel+GuiYun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+GuiYun.m"; sourceTree = "<group>"; };
+		1407526A1D94D44C0007A2F0 /* UITextField+GuiYun.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+GuiYun.h"; sourceTree = "<group>"; };
+		1407526B1D94D44C0007A2F0 /* UITextField+GuiYun.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+GuiYun.m"; sourceTree = "<group>"; };
+		1407526C1D94D44C0007A2F0 /* UIView+GuiYunFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GuiYunFrame.h"; sourceTree = "<group>"; };
+		1407526D1D94D44C0007A2F0 /* UIView+GuiYunFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GuiYunFrame.m"; sourceTree = "<group>"; };
+		140752741D94D4830007A2F0 /* GYunColorUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYunColorUtils.h; sourceTree = "<group>"; };
+		140752751D94D4830007A2F0 /* GYunColorUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYunColorUtils.m; sourceTree = "<group>"; };
+		140752761D94D4830007A2F0 /* GYunContextUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYunContextUtils.h; sourceTree = "<group>"; };
+		140752771D94D4830007A2F0 /* GYunContextUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYunContextUtils.m; sourceTree = "<group>"; };
+		140752781D94D4830007A2F0 /* GYunFileUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYunFileUtils.h; sourceTree = "<group>"; };
+		140752791D94D4830007A2F0 /* GYunFileUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYunFileUtils.m; sourceTree = "<group>"; };
+		1407527A1D94D4830007A2F0 /* GYunImageUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYunImageUtils.h; sourceTree = "<group>"; };
+		1407527B1D94D4830007A2F0 /* GYunImageUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYunImageUtils.m; sourceTree = "<group>"; };
+		1407527C1D94D4830007A2F0 /* GYunMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYunMacro.h; sourceTree = "<group>"; };
+		1407527D1D94D4830007A2F0 /* GYunMacro.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYunMacro.m; sourceTree = "<group>"; };
+		1407527E1D94D4830007A2F0 /* GYunStringUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYunStringUtils.h; sourceTree = "<group>"; };
+		1407527F1D94D4830007A2F0 /* GYunStringUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYunStringUtils.m; sourceTree = "<group>"; };
+		140752801D94D4830007A2F0 /* GYunToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYunToast.h; sourceTree = "<group>"; };
+		140752811D94D4830007A2F0 /* GYunToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYunToast.m; sourceTree = "<group>"; };
+		140752821D94D4830007A2F0 /* GYunUserDefault.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYunUserDefault.h; sourceTree = "<group>"; };
+		140752831D94D4830007A2F0 /* GYunUserDefault.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYunUserDefault.m; sourceTree = "<group>"; };
+		140752841D94D4830007A2F0 /* GYunValidators.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GYunValidators.h; sourceTree = "<group>"; };
+		140752851D94D4830007A2F0 /* GYunValidators.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GYunValidators.m; sourceTree = "<group>"; };
+		140752911D94D4E10007A2F0 /* NSArray+NSJSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+NSJSONModel.h"; sourceTree = "<group>"; };
+		140752921D94D4E10007A2F0 /* NSArray+NSJSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+NSJSONModel.m"; sourceTree = "<group>"; };
+		140752931D94D4E10007A2F0 /* NSDictionary+NSJSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+NSJSONModel.h"; sourceTree = "<group>"; };
+		140752941D94D4E10007A2F0 /* NSDictionary+NSJSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+NSJSONModel.m"; sourceTree = "<group>"; };
+		140752951D94D4E10007A2F0 /* NSJSONModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSJSONModel.h; sourceTree = "<group>"; };
+		140752961D94D4E10007A2F0 /* NSJSONModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSJSONModel.m; sourceTree = "<group>"; };
+		140752971D94D4E10007A2F0 /* NSJSONModelError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSJSONModelError.h; sourceTree = "<group>"; };
+		140752981D94D4E10007A2F0 /* NSJSONModelError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSJSONModelError.m; sourceTree = "<group>"; };
+		140752991D94D4E10007A2F0 /* NSJSONModelKeyMapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSJSONModelKeyMapper.h; sourceTree = "<group>"; };
+		1407529A1D94D4E10007A2F0 /* NSJSONModelKeyMapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSJSONModelKeyMapper.m; sourceTree = "<group>"; };
+		1407529B1D94D4E10007A2F0 /* NSJSONModelProperty.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSJSONModelProperty.h; sourceTree = "<group>"; };
+		1407529C1D94D4E10007A2F0 /* NSJSONModelProperty.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSJSONModelProperty.m; sourceTree = "<group>"; };
+		140752A41D94D55D0007A2F0 /* YHIphoneSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHIphoneSDK.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		140752161D94D2D10007A2F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1407522F1D94D2D10007A2F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1407523A1D94D2D10007A2F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		140752101D94D2D10007A2F0 = {
+			isa = PBXGroup;
+			children = (
+				1407521B1D94D2D10007A2F0 /* YHIphoneSDK */,
+				140752351D94D2D10007A2F0 /* YHIphoneSDKTests */,
+				140752401D94D2D10007A2F0 /* YHIphoneSDKUITests */,
+				1407521A1D94D2D10007A2F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1407521A1D94D2D10007A2F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				140752191D94D2D10007A2F0 /* YHIphoneSDK.app */,
+				140752321D94D2D10007A2F0 /* YHIphoneSDKTests.xctest */,
+				1407523D1D94D2D10007A2F0 /* YHIphoneSDKUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1407521B1D94D2D10007A2F0 /* YHIphoneSDK */ = {
+			isa = PBXGroup;
+			children = (
+				1407524F1D94D2ED0007A2F0 /* YHIphoneSDK */,
+				1407521F1D94D2D10007A2F0 /* AppDelegate.h */,
+				140752201D94D2D10007A2F0 /* AppDelegate.m */,
+				140752221D94D2D10007A2F0 /* ViewController.h */,
+				140752231D94D2D10007A2F0 /* ViewController.m */,
+				140752251D94D2D10007A2F0 /* Main.storyboard */,
+				140752281D94D2D10007A2F0 /* Assets.xcassets */,
+				1407522A1D94D2D10007A2F0 /* LaunchScreen.storyboard */,
+				1407522D1D94D2D10007A2F0 /* Info.plist */,
+				1407521C1D94D2D10007A2F0 /* Supporting Files */,
+			);
+			path = YHIphoneSDK;
+			sourceTree = "<group>";
+		};
+		1407521C1D94D2D10007A2F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1407521D1D94D2D10007A2F0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		140752351D94D2D10007A2F0 /* YHIphoneSDKTests */ = {
+			isa = PBXGroup;
+			children = (
+				140752361D94D2D10007A2F0 /* YHIphoneSDKTests.m */,
+				140752381D94D2D10007A2F0 /* Info.plist */,
+			);
+			path = YHIphoneSDKTests;
+			sourceTree = "<group>";
+		};
+		140752401D94D2D10007A2F0 /* YHIphoneSDKUITests */ = {
+			isa = PBXGroup;
+			children = (
+				140752411D94D2D10007A2F0 /* YHIphoneSDKUITests.m */,
+				140752431D94D2D10007A2F0 /* Info.plist */,
+			);
+			path = YHIphoneSDKUITests;
+			sourceTree = "<group>";
+		};
+		1407524F1D94D2ED0007A2F0 /* YHIphoneSDK */ = {
+			isa = PBXGroup;
+			children = (
+				140752A31D94D5150007A2F0 /* Config */,
+				1407528F1D94D4E10007A2F0 /* BaseModel */,
+				140752731D94D4830007A2F0 /* Utils */,
+				140752631D94D42B0007A2F0 /* UICategory */,
+			);
+			path = YHIphoneSDK;
+			sourceTree = "<group>";
+		};
+		140752631D94D42B0007A2F0 /* UICategory */ = {
+			isa = PBXGroup;
+			children = (
+				140752641D94D44C0007A2F0 /* NCTextView.h */,
+				140752651D94D44C0007A2F0 /* NCTextView.m */,
+				140752661D94D44C0007A2F0 /* UIImageView+GuiYun.h */,
+				140752671D94D44C0007A2F0 /* UIImageView+GuiYun.m */,
+				140752681D94D44C0007A2F0 /* UILabel+GuiYun.h */,
+				140752691D94D44C0007A2F0 /* UILabel+GuiYun.m */,
+				1407526A1D94D44C0007A2F0 /* UITextField+GuiYun.h */,
+				1407526B1D94D44C0007A2F0 /* UITextField+GuiYun.m */,
+				1407526C1D94D44C0007A2F0 /* UIView+GuiYunFrame.h */,
+				1407526D1D94D44C0007A2F0 /* UIView+GuiYunFrame.m */,
+			);
+			path = UICategory;
+			sourceTree = "<group>";
+		};
+		140752731D94D4830007A2F0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				140752741D94D4830007A2F0 /* GYunColorUtils.h */,
+				140752751D94D4830007A2F0 /* GYunColorUtils.m */,
+				140752761D94D4830007A2F0 /* GYunContextUtils.h */,
+				140752771D94D4830007A2F0 /* GYunContextUtils.m */,
+				140752781D94D4830007A2F0 /* GYunFileUtils.h */,
+				140752791D94D4830007A2F0 /* GYunFileUtils.m */,
+				1407527A1D94D4830007A2F0 /* GYunImageUtils.h */,
+				1407527B1D94D4830007A2F0 /* GYunImageUtils.m */,
+				1407527C1D94D4830007A2F0 /* GYunMacro.h */,
+				1407527D1D94D4830007A2F0 /* GYunMacro.m */,
+				1407527E1D94D4830007A2F0 /* GYunStringUtils.h */,
+				1407527F1D94D4830007A2F0 /* GYunStringUtils.m */,
+				140752801D94D4830007A2F0 /* GYunToast.h */,
+				140752811D94D4830007A2F0 /* GYunToast.m */,
+				140752821D94D4830007A2F0 /* GYunUserDefault.h */,
+				140752831D94D4830007A2F0 /* GYunUserDefault.m */,
+				140752841D94D4830007A2F0 /* GYunValidators.h */,
+				140752851D94D4830007A2F0 /* GYunValidators.m */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		1407528F1D94D4E10007A2F0 /* BaseModel */ = {
+			isa = PBXGroup;
+			children = (
+				140752901D94D4E10007A2F0 /* jsonModel */,
+			);
+			path = BaseModel;
+			sourceTree = "<group>";
+		};
+		140752901D94D4E10007A2F0 /* jsonModel */ = {
+			isa = PBXGroup;
+			children = (
+				140752911D94D4E10007A2F0 /* NSArray+NSJSONModel.h */,
+				140752921D94D4E10007A2F0 /* NSArray+NSJSONModel.m */,
+				140752931D94D4E10007A2F0 /* NSDictionary+NSJSONModel.h */,
+				140752941D94D4E10007A2F0 /* NSDictionary+NSJSONModel.m */,
+				140752951D94D4E10007A2F0 /* NSJSONModel.h */,
+				140752961D94D4E10007A2F0 /* NSJSONModel.m */,
+				140752971D94D4E10007A2F0 /* NSJSONModelError.h */,
+				140752981D94D4E10007A2F0 /* NSJSONModelError.m */,
+				140752991D94D4E10007A2F0 /* NSJSONModelKeyMapper.h */,
+				1407529A1D94D4E10007A2F0 /* NSJSONModelKeyMapper.m */,
+				1407529B1D94D4E10007A2F0 /* NSJSONModelProperty.h */,
+				1407529C1D94D4E10007A2F0 /* NSJSONModelProperty.m */,
+			);
+			path = jsonModel;
+			sourceTree = "<group>";
+		};
+		140752A31D94D5150007A2F0 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				140752A41D94D55D0007A2F0 /* YHIphoneSDK.h */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		140752181D94D2D10007A2F0 /* YHIphoneSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 140752461D94D2D10007A2F0 /* Build configuration list for PBXNativeTarget "YHIphoneSDK" */;
+			buildPhases = (
+				140752151D94D2D10007A2F0 /* Sources */,
+				140752161D94D2D10007A2F0 /* Frameworks */,
+				140752171D94D2D10007A2F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YHIphoneSDK;
+			productName = YHIphoneSDK;
+			productReference = 140752191D94D2D10007A2F0 /* YHIphoneSDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		140752311D94D2D10007A2F0 /* YHIphoneSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 140752491D94D2D10007A2F0 /* Build configuration list for PBXNativeTarget "YHIphoneSDKTests" */;
+			buildPhases = (
+				1407522E1D94D2D10007A2F0 /* Sources */,
+				1407522F1D94D2D10007A2F0 /* Frameworks */,
+				140752301D94D2D10007A2F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				140752341D94D2D10007A2F0 /* PBXTargetDependency */,
+			);
+			name = YHIphoneSDKTests;
+			productName = YHIphoneSDKTests;
+			productReference = 140752321D94D2D10007A2F0 /* YHIphoneSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1407523C1D94D2D10007A2F0 /* YHIphoneSDKUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1407524C1D94D2D10007A2F0 /* Build configuration list for PBXNativeTarget "YHIphoneSDKUITests" */;
+			buildPhases = (
+				140752391D94D2D10007A2F0 /* Sources */,
+				1407523A1D94D2D10007A2F0 /* Frameworks */,
+				1407523B1D94D2D10007A2F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1407523F1D94D2D10007A2F0 /* PBXTargetDependency */,
+			);
+			name = YHIphoneSDKUITests;
+			productName = YHIphoneSDKUITests;
+			productReference = 1407523D1D94D2D10007A2F0 /* YHIphoneSDKUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		140752111D94D2D10007A2F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = LYH;
+				TargetAttributes = {
+					140752181D94D2D10007A2F0 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = G2424Y2WXX;
+						ProvisioningStyle = Automatic;
+					};
+					140752311D94D2D10007A2F0 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 140752181D94D2D10007A2F0;
+					};
+					1407523C1D94D2D10007A2F0 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 140752181D94D2D10007A2F0;
+					};
+				};
+			};
+			buildConfigurationList = 140752141D94D2D10007A2F0 /* Build configuration list for PBXProject "YHIphoneSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 140752101D94D2D10007A2F0;
+			productRefGroup = 1407521A1D94D2D10007A2F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				140752181D94D2D10007A2F0 /* YHIphoneSDK */,
+				140752311D94D2D10007A2F0 /* YHIphoneSDKTests */,
+				1407523C1D94D2D10007A2F0 /* YHIphoneSDKUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		140752171D94D2D10007A2F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1407522C1D94D2D10007A2F0 /* LaunchScreen.storyboard in Resources */,
+				140752291D94D2D10007A2F0 /* Assets.xcassets in Resources */,
+				140752271D94D2D10007A2F0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		140752301D94D2D10007A2F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1407523B1D94D2D10007A2F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		140752151D94D2D10007A2F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1407529F1D94D4E10007A2F0 /* NSJSONModel.m in Sources */,
+				140752881D94D4830007A2F0 /* GYunFileUtils.m in Sources */,
+				140752A01D94D4E10007A2F0 /* NSJSONModelError.m in Sources */,
+				140752A11D94D4E10007A2F0 /* NSJSONModelKeyMapper.m in Sources */,
+				140752701D94D44C0007A2F0 /* UILabel+GuiYun.m in Sources */,
+				1407528C1D94D4830007A2F0 /* GYunToast.m in Sources */,
+				1407529E1D94D4E10007A2F0 /* NSDictionary+NSJSONModel.m in Sources */,
+				1407529D1D94D4E10007A2F0 /* NSArray+NSJSONModel.m in Sources */,
+				1407528D1D94D4830007A2F0 /* GYunUserDefault.m in Sources */,
+				140752891D94D4830007A2F0 /* GYunImageUtils.m in Sources */,
+				1407526E1D94D44C0007A2F0 /* NCTextView.m in Sources */,
+				140752A21D94D4E10007A2F0 /* NSJSONModelProperty.m in Sources */,
+				140752871D94D4830007A2F0 /* GYunContextUtils.m in Sources */,
+				140752721D94D44C0007A2F0 /* UIView+GuiYunFrame.m in Sources */,
+				1407528A1D94D4830007A2F0 /* GYunMacro.m in Sources */,
+				140752711D94D44C0007A2F0 /* UITextField+GuiYun.m in Sources */,
+				140752241D94D2D10007A2F0 /* ViewController.m in Sources */,
+				140752211D94D2D10007A2F0 /* AppDelegate.m in Sources */,
+				1407528B1D94D4830007A2F0 /* GYunStringUtils.m in Sources */,
+				1407521E1D94D2D10007A2F0 /* main.m in Sources */,
+				1407526F1D94D44C0007A2F0 /* UIImageView+GuiYun.m in Sources */,
+				1407528E1D94D4830007A2F0 /* GYunValidators.m in Sources */,
+				140752861D94D4830007A2F0 /* GYunColorUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1407522E1D94D2D10007A2F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				140752371D94D2D10007A2F0 /* YHIphoneSDKTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		140752391D94D2D10007A2F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				140752421D94D2D10007A2F0 /* YHIphoneSDKUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		140752341D94D2D10007A2F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 140752181D94D2D10007A2F0 /* YHIphoneSDK */;
+			targetProxy = 140752331D94D2D10007A2F0 /* PBXContainerItemProxy */;
+		};
+		1407523F1D94D2D10007A2F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 140752181D94D2D10007A2F0 /* YHIphoneSDK */;
+			targetProxy = 1407523E1D94D2D10007A2F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		140752251D94D2D10007A2F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				140752261D94D2D10007A2F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1407522A1D94D2D10007A2F0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1407522B1D94D2D10007A2F0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		140752441D94D2D10007A2F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		140752451D94D2D10007A2F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		140752471D94D2D10007A2F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G2424Y2WXX;
+				INFOPLIST_FILE = YHIphoneSDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guiyun.www.YHIphoneSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		140752481D94D2D10007A2F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = G2424Y2WXX;
+				INFOPLIST_FILE = YHIphoneSDK/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guiyun.www.YHIphoneSDK;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1407524A1D94D2D10007A2F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YHIphoneSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guiyun.www.YHIphoneSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YHIphoneSDK.app/YHIphoneSDK";
+			};
+			name = Debug;
+		};
+		1407524B1D94D2D10007A2F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = YHIphoneSDKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guiyun.www.YHIphoneSDKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YHIphoneSDK.app/YHIphoneSDK";
+			};
+			name = Release;
+		};
+		1407524D1D94D2D10007A2F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YHIphoneSDKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guiyun.www.YHIphoneSDKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YHIphoneSDK;
+			};
+			name = Debug;
+		};
+		1407524E1D94D2D10007A2F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = YHIphoneSDKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guiyun.www.YHIphoneSDKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = YHIphoneSDK;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		140752141D94D2D10007A2F0 /* Build configuration list for PBXProject "YHIphoneSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				140752441D94D2D10007A2F0 /* Debug */,
+				140752451D94D2D10007A2F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		140752461D94D2D10007A2F0 /* Build configuration list for PBXNativeTarget "YHIphoneSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				140752471D94D2D10007A2F0 /* Debug */,
+				140752481D94D2D10007A2F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		140752491D94D2D10007A2F0 /* Build configuration list for PBXNativeTarget "YHIphoneSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1407524A1D94D2D10007A2F0 /* Debug */,
+				1407524B1D94D2D10007A2F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1407524C1D94D2D10007A2F0 /* Build configuration list for PBXNativeTarget "YHIphoneSDKUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1407524D1D94D2D10007A2F0 /* Debug */,
+				1407524E1D94D2D10007A2F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 140752111D94D2D10007A2F0 /* Project object */;
+}
