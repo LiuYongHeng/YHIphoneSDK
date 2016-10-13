@@ -30,7 +30,7 @@
 #define ERROR_MSG           @"(Ｔ＿Ｔ)服务器开小差，请稍候重试"
 #define LAST_PAGE_MSG       @"(;¬_¬) 已到最后一页啦"
 
-#define NORMAL_IMAGE_HEIGHT  self.view.width*0.6
+#define NORMAL_IMAGE_HEIGHT  self.view.width*0.6;
 //判断iphone6
 #define iPhone6 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(750, 1334), [[UIScreen mainScreen] currentMode].size) : NO)
 

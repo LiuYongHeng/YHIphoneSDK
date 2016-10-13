@@ -11,7 +11,7 @@
 @interface GYunColorUtils (){
     
         //用来缓存获取过的颜色
-        NSDictionary *mCache;
+    NSDictionary *mCache; 
 }
 
 @end

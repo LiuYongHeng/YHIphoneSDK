@@ -19,11 +19,11 @@
     
     
 //    void (^call)(NSString*) = ^(NSString *txt){
-//        
-//        
+//
+//     void (^call)  
+    
 //    };
 //    call(@"");
-    
     
     void (^callblock) (void) = ^(void){
 //        NSLog(@"---eeeeeee");   NSLog(@"“)
